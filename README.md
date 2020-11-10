@@ -14,7 +14,7 @@
 	</tr>
 	<tr align="center">
 		<td colspan="2">
-			<center><h4> 17 / octubre / 2020 </h4></center>
+			<center><h4> 08 / noviembre / 2020 </h4></center>
 		</td>
 	</tr>
 	<tr>
