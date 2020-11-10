@@ -1,0 +1,414 @@
+ 
+
+
+ * {
+  margin: 0;
+  padding: 0;
+}
+
+div#general{
+	width:100%;
+	height: 500%;
+	background-color: #ffff;
+	display: inline-block;
+}
+div#ofertas{
+	margin: auto;
+	margin-top: 10px;
+	margin-right: 40px;
+	float: right;
+	width: 300px;
+	height: 350px;
+	background-color: #fff;
+	display: inline-block;
+}
+
+div#body{
+	margin: auto;
+	margin-left: 20px;
+	width: 63.25%;
+	height: 980px;
+	background-color: purple;
+	display: inline-block;
+	
+}
+div#body2{
+	margin: auto;
+	margin-left: 1px;
+	width: 980px;
+	height: 400px;
+	background-color: #ffff;
+	display: inline-block;
+	
+}
+div#body3{
+	margin: 0 auto;
+	margin-left: 15%;
+	width: 980px;
+	height: 400px;
+	background-color: #ffff;
+	display: inline-block;
+	
+}
+div#body4{
+
+	margin: 0 auto;
+	margin-left: 15%;
+	width: 980px;
+	height: 300px;
+	background-color: #ffff;
+	display: inline-block;
+}
+div#body5_{ /*Para centrar las tablas de consultas menos la primaria*/
+	margin: 0 auto;
+	margin-left: 25%;
+	width: 780px;
+	height: 400px;
+	background-color: #ffff;
+	display: inline-block;
+	
+}
+div#body_6{ /*Para centrar las tablas de actualización menos la primaria*/
+	margin: 0 auto;
+	margin-left: 20%;
+	width: 780px;
+	height: 257px;
+	background-color: #ffff;
+	display: inline-block;
+	
+}
+div#body_7{ /*Para pantalla de busqueda de datos.*/
+	margin: 0 auto;
+	margin-left: 5%;
+	width: 980px;
+	height: 357px;
+	background-color:#ffff ;
+	display: inline-block;
+	
+}
+div#body_8{ /*Este se utiliza para ingreso de registros*/
+	margin: 0 auto;
+	margin-left: 12%;
+	width: 800px;
+	height: 490px;
+	background-color: #ffff;
+	display: inline-block;
+	
+}
+
+div#bodybitacora{ /*Este se utiliza para ingreso de registros*/
+	margin: 0 auto;
+	margin-left: 18%;
+	width: 780px;
+	height: 630px;
+	background-color: #ffff;
+	display: inline-block;
+	
+}
+
+
+div#novedades{
+	width: 100%;
+	height: 120px;
+	background-color: #05629b ; /*Blue   #05629b*/
+	display: inline-block;
+
+}
+div#pie{
+	margin: auto;
+	margin-top: 10px;
+	width: 100%;
+	height: 110px;
+	background-color: #585757;
+	display: inline-block;
+}
+div#bodycentral{ /*Este se utiliza para ingreso de registros*/
+	margin: 0 auto;
+	margin-left: 3%;
+	width:100%;
+	height: 430px;
+	background-color:black;
+	display: inline-block;
+	
+}
+
+
+.table2{
+
+	background-color: #ffff;
+	border: 4px solid #000;
+	border-collapse: separate;
+
+}
+.td{
+
+	width: 25%;
+	text-align: center; 
+	border:1px solid #000;
+	/*vertical-align: top;*/ 
+	text-align: left;
+}
+.ctexto{
+
+	padding-bottom: : 100px;
+	border-radius: 5px;
+	border-bottom: 4px;
+
+
+}
+.etiquetas{
+	  color:#05629b ;
+  font-weight: normal;
+  font-size: 18px;
+  font-family: Arial;
+  text-transform: uppercase;
+
+
+
+}
+.h3{
+	color: #443963;
+  font-weight: normal;
+  font-size: 20px;
+  font-family: Arial;
+  text-transform: uppercase;
+}
+.h8{/*se utiliza en la fuente de la pagina de ingreso de registro*/
+	color: #555353;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: Helvetica;/*Arial*/
+  text-transform: uppercase;
+}
+.texto1{
+	font-size:15px;
+	font-weight: bold;  
+	border-radius: 20px;
+	height:12px;
+	display: block;
+	padding: 10px; 
+	margin: 10px 0; 
+	width: 90%;
+}
+
+.boton{
+	border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #2e518b; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+font-weight: bolder;
+border-radius: 50px; /*bordes redondos*/
+width: 200px;
+}
+.boton:hover{
+	background-color: #434343; /*color botón*/
+}
+.botonA{
+	border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+padding: 5px; /*espacio alrededor texto*/
+background-color: #2e518b; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+font-weight: bolder;
+border-radius: 50px; /*bordes redondos*/
+width: 200px;
+}
+.botonA:hover{
+	background-color: #434343; /*color botón*/
+}
+.botonE{
+	border: 1px solid #05629b; /*#2e518b; /*anchura, estilo y color borde*/
+padding: 1px; /*espacio alrededor texto*/
+background-color: #05629b;/*#2e518b; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+font-weight: bolder;
+font-size: 12px;
+border-radius: 50px; /*bordes redondos*/
+width: 100px;
+
+}
+.botonE:hover{
+	background-color: #434343; /*color botón*/
+}
+.encabezado1{
+	text-align: center;
+	height: 50px;
+	color: #151592;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.encabezado_1{
+	text-align: center;
+	height: 20px;
+	color: #151592;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 30px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.caja{
+		font-size:18px; 
+		border-radius: 20px;
+		height:30px;display: block; 
+		padding: 5px; 
+		margin: 5px 0; 
+		width: 90%;
+}
+.caja1{
+		font-size:12px; 
+		border-radius: 20px;
+		height:20px;display: block; 
+		 padding: 5px; 
+		margin: 5px 0; 
+		width: 300px;
+}
+.caja2{/*se utiliza en la fuente de la pagina de ingreso de registro*/
+		font-size:12px; 
+		border-radius: 20px;
+		height:15px;display: block; 
+		 padding: 5px; 
+		margin: 5px 0; 
+		width: 600px;
+}
+.caja3{/*se utiliza en la fuente de la pagina de ingreso de registro*/
+		font-size:12px; 
+		border-radius: 20px;
+		height:15px;display: block; 
+		 padding: 5px; 
+		margin: 5px 0; 
+		width: 600px;
+}
+.caja4{/*se utiliza en la fuente de la pagina de ingreso de registro*/
+		font-size:12px; 
+		border-radius: 20px;
+		height:15px;display: block; 
+		 padding: 5px; 
+		margin: 5px 0; 
+		width: 100px;
+}
+
+.caja5{/*se utiliza en la fuente de la pagina de ingreso de registro*/
+		font-size:12px; 
+		border-radius: 20px;
+		height:15px;display: block; 
+		 padding: 5px; 
+		margin: 5px 0; 
+		width: 185px;
+}
+
+
+
+.imgpequenia{
+  width: 50px; height: 50px;
+}
+.imgmediana{
+  width: 150px; height: 150px;
+
+}
+.imggrande{
+  width: 300px; height: 300px;
+}
+.img{
+	display:block;
+	margin:auto;
+}
+#scroll{
+        border:1px solid;
+       height:365px;
+        width:955px; /*1455px*/
+        overflow-y:scroll;
+       /overflow-x:scroll;
+        /*overflow-x:hidden;*/
+}
+  .table-container {
+  overflow-x: auto;
+  overflow-y: auto; }
+
+  .table-rwd {
+  min-width: 500px; }
+  
+  .table-rwd tr:hover {
+
+    background-color: #1A8CFF;
+  }
+
+ /* Para el scroll  ################################################################*/
+ .ABODY {
+    height: 100%;
+    margin: 10px;
+    font-family: Tahoma, Arial, Verdana;
+    font-weight: normal;
+    font-size: 12px;
+    color: #333333;/*#333333*/
+
+}
+
+.GridViewScrollHeader TH, .GridViewScrollHeader TD {
+    padding: 10px;
+    font-weight: normal;
+    white-space: nowrap;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #05629b;/*F4F4F4*/
+    color: #ffff;/*#999999*/
+    font-weight: bolder;
+    text-align: center; /*left*/
+    vertical-align: bottom;
+}
+.GridViewScrollHeader2 TH, .GridViewScrollHeader2 TD {
+    padding: 10px;
+    font-weight: normal;
+    white-space: nowrap;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #05629b;/*F4F4F4*/
+    color: #ffff;/*#999999*/
+    font-weight: bolder;
+    text-align: center; /*left*/
+    vertical-align: bottom;
+}
+
+.GridViewScrollItem TD {
+    padding: 10px;
+    white-space: nowrap;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #FFFFFF;
+    color: #444444;
+}
+
+.GridViewScrollItemFreeze TD {
+    padding: 10px;
+    white-space: nowrap;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #FAFAFA;/*#FAFAFA*/
+    color: #444444;
+}
+
+.GridViewScrollFooterFreeze TD {
+    padding: 10px;
+    white-space: nowrap;
+    border-right: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #F4F4F4;/*#F4F4F4*/
+    color: #444444;
+    font-weight: bolder;
+    align-items: center;
+}
+/* Fin del scroll  ################################################################*/
