@@ -43,7 +43,7 @@
 				</tr>
 				<tr>
 					<td colspan="2" align="center" class="texto1"><label>CORREO</label></td>
-					<td colspan="2"><input type="text" name="txtEmail" placeholder="example@pharmalat.com.gt" class="caja1" autocomplete="off"></td>
+					<td colspan="2"><input type="email" name="txtEmail" placeholder="example@pharmalat.com.gt" class="caja1" autocomplete="off"></td>
 				</tr>
 				<tr>
 					<td align="center" class="texto1"><label>ROL</label></td>
@@ -103,13 +103,13 @@
 
 </center>
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
 </div>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 
 
 <?php include('../pie_pagina.php') ?>

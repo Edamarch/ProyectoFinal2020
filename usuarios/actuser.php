@@ -78,7 +78,7 @@ while ($columna=mysqli_fetch_array($resultado2)) {
 				</tr>
 				<tr>
 					<td colspan="2" align="center" class="texto1"><label>CORREO</label></td>
-					<td colspan="2"><input type="text" name="txtEmail" placeholder="example@pharmalat.com.gt" class="caja1" autocomplete="off" value="<?php echo $email; ?>"></td>
+					<td colspan="2"><input type="email" name="txtEmail" placeholder="example@pharmalat.com.gt" class="caja1" autocomplete="off" value="<?php echo $email; ?>"></td>
 				</tr>
 				<tr>
 					<td align="center" class="texto1"><label>ROL</label></td>

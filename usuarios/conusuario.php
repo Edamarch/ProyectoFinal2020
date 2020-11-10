@@ -229,6 +229,11 @@ mysqli_close( $conn );
 		</form>
 	</tr>
 </table>
+<br>
+<br>
+<br>
+<br>
+<br>
 </div>
 
 

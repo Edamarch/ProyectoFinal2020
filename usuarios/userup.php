@@ -25,7 +25,7 @@
 
  $consulta="UPDATE usuarios SET  nombre='$nombre',apellido='$apellido', email='$email', estado=$estado,id_tipo=$tipo WHERE id_usuario=$codigo";
  $resultado=mysqli_query($conn,$consulta);
-echo $consulta;
+//echo $consulta;
   
   
 //$consulta="UPDATE usuarios SET nusuario=$usuario, correo=$email, id_tipo=$rol WHERE id_usuario=$codigo ";
@@ -34,4 +34,4 @@ echo $consulta;
 
  ?>
 
- <META HTTP-EQUIV="REFRESH" CONTENT="10;conusuario.php?codigo=<?php echo $codigo ?>" >
+ <META HTTP-EQUIV="REFRESH" CONTENT="0;conusuario.php?codigo=<?php echo $codigo ?>" >
