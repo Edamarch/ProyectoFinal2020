@@ -166,7 +166,12 @@ $consulta="SELECT usuarios.id_usuario, usuarios.usuario, usuarios.nombre, usuari
  
 $resultado=mysqli_query($conn, $consulta);
 echo "<br>";
-
+echo "<table>";
+        echo "<tr>";
+        echo "<td><form action='../Reportes/rusuario.php' method='post' target='_blank'><input type='text' name='txtFec2'  style='display: none' ><input type='image' src='../img/pdf.png' width='80' height='60' ></form>";
+        echo "</td>";
+        echo "</tr>";
+        echo "</table>";
 //echo "<table border='2' >";
 
 echo "<table border='2' cellspacing='0'  style='width:100%; border-collapse:collapse;' class='table-container table-rwd'  >";
